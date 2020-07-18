@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="description" content="Motion Designer, CGI Generalist and Multimedia Artist.">
   <title>Diogo Paixão | Projects</title>
-  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="/css/custom.css">
   <meta name="viewport" content="content=" width=device-width, initial-scale=1"">
 
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@531&display=swap" rel="stylesheet">
