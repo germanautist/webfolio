@@ -1,0 +1,125 @@
+html {}
+
+body {
+  background-color: #111113;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+hr {
+  background-color: white;
+  height: 2px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.62rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 3em;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 560;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.active{
+  color:grey;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+.div2{
+  margin-top: 3rem;
+}
+
+.navbar {
+  background-color: black;
+}
+.navbar-brand{
+  margin-left: 1rem;
+
+}
+
+.contact-details-text {
+  margin-top: 3rem
+}
+
+.row {
+  margin-top: 2em
+}
+
+.email-arrow {
+  font-size: 3rem;
+}
+
+.email-custom {
+  padding: 1rem
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 85%
+  }
+}
+
+.info-header {
+  margin-top: 150px;
+}
+
+.social-links {
+  margin-top: 3rem;
+}
+
+.social-links-sm {
+  padding-top: 1rem;
+}
+
+.copyright {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+  padding-top: 32px;
+}
+.cv{
+  margin-top: 5rem;
+}
+.bio-pg{
+  padding-top: 3rem;
+}
+.logo-link{
+  margin-bottom: 0;
+}
+.underline{
+  text-decoration: underline;
+}
+.email-row{
+  margin-top: 0;
+}
+.index-thumbnail-container{
+  height: 200px;
+  background-color: blue;
+}
+.no-padding-left{
+  padding-left: 0;
+}
