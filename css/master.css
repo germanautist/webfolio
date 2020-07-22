@@ -1,5 +1,6 @@
 html {
-  font-size: 65%
+  font-size: 65%;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -110,7 +111,6 @@ bottom: 5%;
 
 
 
-
 .info-header {
 margin-top: 12rem;
 }
@@ -120,9 +120,6 @@ margin-top: 12rem;
   }
 
 }
-
-
-
 
 
 .social-links {
@@ -161,4 +158,22 @@ margin-top: 12rem;
 }
 .no-padding-left{
   padding-left: 0;
+}
+
+button:focus{
+    outline: 0;
+}
+
+
+span  {
+  display: block;
+  width: 2rem;
+  height: 1px;
+  margin-bottom: 5px;
+  position: relative;
+
+  background: white;
+
+
+  z-index: 1;
 }
