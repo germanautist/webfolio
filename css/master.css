@@ -1,12 +1,13 @@
 html {
   font-size: 65%;
-  -webkit-font-smoothing: antialiased;
+
 }
 
 body {
   background-color: #111113;
   color: white;
   font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 hr {
