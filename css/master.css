@@ -1,6 +1,5 @@
 html {
   font-size: 65%;
-
 }
 
 body {
@@ -33,14 +32,14 @@ h3 {
 h4 {
   font-size: 1.4rem;
   font-weight: 500;
-
 }
 
 h6, .nav-link {
   font-size: 1.2rem;
   font-weight: 560;
 }
-p{
+
+p {
   font-size: 1.3rem;
 }
 
@@ -48,41 +47,44 @@ a {
   color: white;
   text-decoration: none;
 }
-.active{
-  color:grey;
+
+.active {
+  color: grey;
 }
 
 a:hover {
   color: grey;
   text-decoration: none;
 }
-.full-wrap{
-   height: 100vh;
-   display: block;
+
+.full-wrap {
+  height: 100vh;
+  display: block;
 }
 }
-.div2{
+
+.div2 {
   margin-top: 3rem;
 }
 
 .navbar {
   background-color: black;
 }
-.navbar-brand{
-  margin-left: 1rem;
 
+.navbar-brand {
+  margin-left: 1rem;
 }
 
 .contact-details-text {
   margin-top: 3rem
 }
 
-.arrow{
+.arrow {
   position: absolute;
-max-width: fit-content;
-bottom: 5%;
-
+  max-width: fit-content;
+  bottom: 5%;
 }
+
 .row {
   margin-top: 2em
 }
@@ -99,29 +101,27 @@ bottom: 5%;
   .container {
     max-width: 85%
   }
+
   h1 {
     font-size: 3rem;
   }
 }
+
 @media (min-width: 800px) {
   .info-img {
-  padding:  0px;
+    padding: 0px;
   }
-
 }
-
-
 
 .info-header {
-margin-top: 12rem;
+  margin-top: 12rem;
 }
+
 @media (min-width: 800px) {
   .info-header {
-  margin-top: 20rem;
+    margin-top: 20rem;
   }
-
 }
-
 
 .social-links {
   margin-top: 3rem;
@@ -137,45 +137,71 @@ margin-top: 12rem;
   padding-bottom: 2rem;
   padding-top: 32px;
 }
-.cv{
-  margin-top: 5rem;
 
+.cv {
+  margin-top: 5rem;
 }
-.bio-pg{
+
+.bio-pg {
   padding-top: 3rem;
 }
-.logo-link{
+
+.logo-link {
   margin-bottom: 0;
 }
-.underline{
+
+.underline {
   text-decoration: underline;
 }
-.email-row{
+
+.email-row {
   margin-top: 0;
 }
-.index-thumbnail-container{
+
+.index-thumbnail-container {
   height: 200px;
   background-color: blue;
-  overflow: hidden
+  overflow: hidden;
 }
-.no-padding-left{
+.index-gif{
+  position: absolute;
+  max-height: 100vh;
+  overflow:hidden;
+
+}
+.gif{
+  width: 99vw;
+  
+
+}
+}
+.project-descript {
+  margin-bottom: 7rem;
+}
+
+.credits {
+  margin-top: -4.4rem;
+}
+
+.thumbnail-image {
+  display: relative;
+  width: 100vw;
+}
+
+.no-padding-left {
   padding-left: 0;
 }
 
-button:focus{
-    outline: 0;
+button:focus {
+  outline: 0;
 }
 
-
-span  {
+span {
   display: block;
   width: 2rem;
   height: 1px;
   margin-bottom: 5px;
   position: relative;
-
   background: white;
-
-
   z-index: 1;
 }
