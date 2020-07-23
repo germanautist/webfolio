@@ -156,6 +156,7 @@ margin-top: 12rem;
 .index-thumbnail-container{
   height: 200px;
   background-color: blue;
+  overflow: hidden
 }
 .no-padding-left{
   padding-left: 0;
