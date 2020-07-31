@@ -58,6 +58,7 @@ a:hover {
   text-decoration: none;
 }
 
+
 .full-wrap {
   height: 100vh;
   display: block;
@@ -93,9 +94,14 @@ a:hover {
 .email-arrow {
   font-size: 3rem;
 }
+.contact-container{
+  margin-top: 5rem;
+}
+
 
 .email-custom {
-  padding: 1rem
+  padding: 1rem;
+  margin-bottom: 4rem;
 }
 
 @media (min-width: 1440px) {
