@@ -170,6 +170,12 @@ a:hover {
   background-color: blue;
   overflow: hidden;
   width: 100%;
+  filter: grayscale(100%);
+}
+
+.index-thumbnail-container:hover {
+  filter: none;
+  transition: 1s  ease-out;
 }
 
 .index-gif {
@@ -231,4 +237,7 @@ span {
   position: relative;
   background: white;
   z-index: 1;
+}
+.video{
+  padding-top: 2rem;
 }
