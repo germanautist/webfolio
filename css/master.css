@@ -187,7 +187,7 @@ video{
 
 .index-thumbnail-container {
   height: 200px;
-  background-color: blue;
+  background-color: #111113;
   overflow: hidden;
   width: 100%;
   filter: grayscale(100%);
